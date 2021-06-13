@@ -1,0 +1,58 @@
+.grid {
+height:633px;
+width:633px;
+display: flex;
+flex-wrap: wrap;
+border: 2px chartreuse solid;
+position:absolute;
+
+}
+.grid div {
+    height:125px;
+    width:125px;
+}
+.smallgrid {
+    height:625px;
+    width:625px;
+    display: flex;
+   
+    position:absolute;
+    left:60%;
+    top:50px;
+    flex-wrap: wrap;
+    
+
+}
+.smallgrid div {
+    height:125px;
+    width:125px;
+}
+.timer {
+margin:2px solid red;
+height:100px;
+width:100px;
+font-size: 35px;
+}
+.score {
+    height: 75px;
+    width:400px;
+    font-size: 30px;
+    position:absolute;
+    top:10px;
+
+}
+.check {
+    position:absolute;
+    top:300px;
+    left:50%;
+}
+.result {
+    position:absolute;
+    top:70px;
+    font-size: 25px;
+}
+.reset {
+    position:absolute;
+    top:400px;
+     left:50%;
+}
